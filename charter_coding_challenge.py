@@ -41,7 +41,7 @@ def find_touching_blocks(dict):
 
         else:
             colors["yellow"].append(key)
-            
+
     return colors
     
-print(find_touching_blocks(dictionary))
+find_touching_blocks(dictionary)
